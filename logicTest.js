@@ -35,6 +35,7 @@ const validatePin = (pin) => {
       repeatCount++;
 
       if (repeatCount > 2) {
+        console.log("must not have repeate digit set more that 2 set");
         return false;
       }
     }
